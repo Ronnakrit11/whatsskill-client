@@ -101,8 +101,8 @@ const Header: FC<Props> = ({ activeItem, setOpen, route, open, setRoute }) => {
                     >
                       <Image
                         src={'/bird.png'}
-                        width={128}
-                        height={100}
+                        width={230}
+                        height={230}
                         alt=""
                       />
                         <span className="ml-[15px] text-[#2e2e2e]">
