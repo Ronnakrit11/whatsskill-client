@@ -14,7 +14,7 @@ export const metadata = {
     siteName: "whatsskill",
     images: [
       {
-        url: "https://res.cloudinary.com/doqbge8fv/image/upload/v1702896905/jtckipjepxusz4q7vy4i.png",
+        url: "https://res.cloudinary.com/doqbge8fv/image/upload/v1702903411/dgedxqvrpc4lbmi96pzt.jpg",
         width: 800,
         height: 600,
       },
@@ -28,7 +28,7 @@ export const metadata = {
     description:
       "แพลตฟอร์มทางเลือกใหม่เพื่อส่งเสริมการศึกษา การเรียนรู้ และการลงทุนสำหรับผู้มุ่งมั่นสร้างสรรค์ความสำเร็จ และก้าวสู่การมีคุณภาพชีวิตที่ดีในแต่ละช่วงวัย ผ่านคอร์สออนไลน์และ eBook จาก influencer ที่พร้อมแชร์สาระดีๆ แก่สังคม",
     images: [
-      "https://res.cloudinary.com/doqbge8fv/image/upload/v1702896905/jtckipjepxusz4q7vy4i.png",
+      "https://res.cloudinary.com/doqbge8fv/image/upload/v1702903411/dgedxqvrpc4lbmi96pzt.jpg",
     ],
   },
 };
