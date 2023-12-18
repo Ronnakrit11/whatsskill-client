@@ -24,10 +24,10 @@ function Hero({ setOpen, banner }: any) {
                     <br />
                     <div className="flex gap-2 1500px:!w-[55%] 1100px:!w-[78%] flex-wrap">
                         <div onClick={() => setOpen(true)} data-aos="fade-up" data-aos-delay="500" className="box-shadow-grow flex items-center justify-center h-[40px] w-[150px] md:h-[60px] md:w-[200px] font-size-[12px]  md:font-size-[16px] text-[16px] font-bold leading-[56px] fill-[#FFFFFF] text-[#ffff] bg-[#FFD230] hover:bg-[#FFD230] hover:border-[#FFD230] cursor-pointer border-solid border-[2px_2px_2px_2px] border-[#FFD230] rounded-lg px-[20px] md:px-[50px] py-0">
-                           <span>Join Us </span> 
+                           <span>เข้าร่วม </span> 
                         </div>
                         <div onClick={() => {router.push('/courses')}} data-aos="fade-up" data-aos-delay="600" className="flex items-center justify-center  h-[40px] w-[150px]  ml-4 md:h-[60px] md:w-[200px] font-size-[12px]  md:font-size-[16px] text-[16px] font-medium leading-[56px] bg-[#FFFFFF] text-[#FFD230]  border-solid border-2 border-[#FFD230] box-shadow-grow hover:text-black cursor-pointer hover:border-[#FFD230]  rounded-lg text-center px-[20px] md:px-[40px]">
-                            Find Courses
+                            ดูคอร์ส
                         </div>
                     </div>
                     <br />

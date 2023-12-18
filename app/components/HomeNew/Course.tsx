@@ -16,7 +16,7 @@ const Courses = (props: Props) => {
     <div>
       <div className={`w-[90%] 800px:w-[80%] m-auto pt-10`}>
         <h1  data-aos="fade-down"  className="text-center font-Poppins text-[25px] leading-[35px] sm:text-3xl lg:text-4xl dark:text-white 800px:!leading-[60px] text-[#000] font-[700] tracking-tight">
-          คอร์สเรียนดีๆจาก<span className="text-gradient">WhatsSkill</span>{" "}
+          คอร์สเรียนดีๆ จาก <span className="text-gradient">WhatsSkill</span>{" "}
           <br />
           เราคัดมาให้โดยเฉพาะ
         </h1>
