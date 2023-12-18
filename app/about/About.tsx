@@ -1,61 +1,63 @@
 import React from "react";
 import { styles } from "../styles/style";
+import Image from "next/image";
 
 const About = () => {
   return (
     <div className="text-black dark:text-white">
       <br />
-      <h1 className={`${styles.title} 800px:!text-[45px]`}>
-        What is <span className="text-gradient">Passive Creator</span>
-      </h1>
-
-      <br />
-      <div className="w-[95%] 800px:w-[85%] m-auto">
-        <p className="text-[18px] font-Poppins">
-          Passive Creator เป็นสถาบันที่เน้นการสอนหารายได้ในตลาดออนไลน์
-          โดยเน้นทางด้านการสร้างรายได้ผ่านงานออกแบบในรูปแบบดิจิตอล
-          ซึ่งถือเป็นธุรกิจแนวใหม่ที่ ลงทุนไม่สูง ไม่ต้องสต็อกของ
-          ไม่ต้องคุยกับลูกค้า เน้นการค้นคว้า และออกแบบงานอย่างสม่ำเสมอ
-          เพื่อสร้างรายได้ใน "ระยะยาว"
-          <br />
-          <br />
-          ด้วยการเรียนการสอนที่ออกแบบมาจากประสบการณ์จริงของผู้สอน
-          ซึ่งมาความเชี่ยวชาญในตลาดทางด้านนี้มากว่า 10 ปี และได้สอนมากว่า 5 ปี
-          ด้วยลูกศิษย์ร่วม 2000 คน ทำให้มั่นใจได้ว่า
-          คอร์สเรียนได้ถูกออกแบบและปรับปรุงอย่างสม่ำเสมอ
-          ให้ทันต่อสถานการณ์ของตลาดที่เปลี่ยนแปลงไป
-          <br />
-          <br />
-          <br />
-          การเรียนการสอน มีทั้งการเรียนออนไลน์แบบสดๆ ผ่านทาง Zoom
-          และสามารถทบทวนได้โดยการเรียนผ่านทางเว็บไซต์เพื่อให้เข้าใจมากยิ่งขึ้น
-          ตลอดจนการดูแล พูดคุยปัญหาหลังการเรียนผ่านทางกลุ่ม facebook
-          ทำให้มั่นใจได้ว่า ทุกคนสามารถ "ทำได้"อย่างแน่นอน
-          <br />
-          ความมุ่งมั่นของเราคือการให้บริการที่มีคุณภาพสูงสุดแก่ลูกค้าทุกท่าน
-          โดยเรามุ่งเน้นให้คุณได้รับประสบการณ์การเรียนรู้ที่เป็นมิตรและสนุกสนาน
-          ทางเรามีทีมงานคุณภาพที่มีความคิดสร้างสรรค์และเชี่ยวชาญในวงการ forex
-          ที่พร้อมให้คำแนะนำและคำปรึกษาที่เป็นประโยชน์ตลอดเวลา
-          <br />
-          <br />
-          <br />
-          หากผู้สนใจท่านใดต้องการรายละเอียดเพิ่มเติม สามารถทักทายสอบถามเพิ่มเติมได้ทาง
-          <br />
-          <br />
-        </p>
-        <br />
-        <span className="text-[22px]">PassiveCreator&apos;</span>
-        <br />
-        <br />
-        <h5 className="text-[18px] font-Poppins">
-          Line Id : @ebookcourse
-          <br />
-          <br />
-          เบอร์โทรติดต่อ : 088-793-5141
-        </h5>
-        <br />
-        <br />
-        <br />
+      <div className="w-[95%] 800px:w-[85%] m-auto text-[#4e4e4e] pb-10">
+        <div className="w-full flex justify-center flex-col md:flex-row items-center">
+          <div className="">
+            <Image src={'/profile.jpeg'} height={100} width={200} alt="" className="object-scale-down rounded-2xl" />
+          </div>
+          <div className="pl-5">
+            <span className="text-[24px] font-semibold text-gradient">ประวัติวิทยากร</span>
+            <p className="text-[22px] mt-1 mb-1">
+              อังศุธร  ศรีพรหม
+            </p>
+            <p className="text-[16px]">เกิด : พ.ศ.2516 </p>
+          </div>
+        </div>
+        <div className="w-full">
+          <div className="pt-5">
+            <span className="text-[16px] md:text-[24px] font-semibold text-gradient">การศึกษา ( Education )</span>
+            <p className="li-item text-[12px] md:text-[16px] mt-3">ปริญญาโท &emsp; : ศึกษาศาสตรมหาบัณฑิต (สาขาการบริหารการศึกษา) มหาวิทยาลัยขอนแก่น </p>
+          </div>
+        </div>
+        <div className="w-full">
+          <div className="pt-5">
+            <span className="text-[16px] md:text-[24px] font-semibold text-gradient">ประสบการณ์ทํางาน ( Professional Experience )</span>
+            <div className="flex mt-3">
+              <p className="li-item text-[13px] md:text-[16px] min-w-[126px]">2559 - ปัจจุบัน</p>
+              <p className="text-[13px] md:text-[16px]">: ผู้จัดการ หจก.พรพรหมอนันตทรัพย์ </p>
+            </div>
+            <div className="flex">
+              <p className="min-w-[126px]"></p>
+              <p className="text-[13px] md:text-[16px]">: นักลงทุน นักเขียนอิสระ </p>
+            </div>
+            <div className="flex">
+              <p className="li-item text-[13px] md:text-[16px] min-w-[126px]">2552 - 2559</p>
+              <p className="text-[13px] md:text-[16px]">: ครู องค์การบริหารส่วนจังหวัดขอนแก่น  </p>
+            </div>
+            <div className="flex">
+              <p className="li-item text-[13px] md:text-[16px] min-w-[126px]">2547 - 2549</p>
+              <p className="text-[13px] md:text-[16px]">: บรรณาธิการข่าว ไทยรัฐออนไลน์ </p>
+            </div>
+            <div className="flex">
+              <p className="li-item text-[13px] md:text-[16px] min-w-[126px]">2545 - 2547</p>
+              <p className="text-[13px] md:text-[16px]">: กองบรรณาธิการ AUTOCAR THAILAND </p>
+            </div>
+            <div className="flex">
+              <p className="li-item text-[13px] md:text-[16px] min-w-[126px]">2541 - 2543</p>
+              <p className="text-[13px] md:text-[16px]">: ผู้สื่อข่าวกีฬา นสพ.บ้านเมือง </p>
+            </div>
+            <div className="flex">
+              <p className="li-item text-[13px] md:text-[16px] min-w-[126px]">2539 - 2541</p>
+              <p className="text-[13px] md:text-[16px]">: ผู้สื่อข่าวเศรษฐกิจ นสพ.คู่แข่งธุรกิจ</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
