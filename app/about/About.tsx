@@ -12,7 +12,7 @@ const About = () => {
             <Image src={'/newprofile.png'} height={100} width={200} alt="" className="object-scale-down rounded-2xl" />
           </div>
           <div className="pl-5">
-            <span className="text-[24px] font-semibold text-gradient">ประวัติห้างหุ้นส่วนจำกัด พรหมทอนันตทรัพย์</span>
+            <span className="text-[24px] font-semibold text-gradient">ห้างหุ้นส่วนจำกัดพรพรหมอนันตทรัพย์</span>
             <p className="text-[22px] mt-1 mb-1">
               อังศุธร  ศรีพรหม
             </p>
